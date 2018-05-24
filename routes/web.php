@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('ini dari master', function(){
     return view('halo dari master');
 });
+Route::get('ini dari cobaBranch', function(){
+    return view('halo dari cobaBranch');
+});
