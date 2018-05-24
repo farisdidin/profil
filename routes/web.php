@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('ini dari master', function(){
+    return view('halo dari master');
+});
