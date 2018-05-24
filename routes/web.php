@@ -21,6 +21,3 @@ Route::get('ini dari master', function(){
 Route::get('ini dari cobaBranch', function(){
     return view('halo dari cobaBranch');
 });
-Route::get('ini dari master2', function(){
-    return view('halo dari master2');
-});
